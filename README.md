@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/antfie/veracode-as-code)](https://goreportcard.com/report/github.com/antfie/veracode-as-code) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/antfie/veracode-go-api/blob/master/LICENSE)
+
 # Veracode As Code
 
 
@@ -13,29 +15,9 @@
 
 You can either use a Veracode API Credentials File (https://help.veracode.com/reader/LMv_dtSHyb7iIxAQznC~9w/zm4hbaPkrXi02YmacwH3wQ) or environment variables (`VERACODE_API_KEY_ID` and `VERACODE_API_KEY_SECRET`) to configure your API authentication.
 
-### JSON Example
-
-scan.json:
-
-```json
-{
-    "application": {
-        "name": "Lunar Lander",
-        "policy": "STRICT"
-    },
-    "sandbox": "Release Candidate",
-    "name": "2020-06-16-1",
-    "autoScanAfterPrescan": true,
-    "uploads": [
-        "${artifact_app.war}",
-        "${artifact_front_end.js}"
-    ]
-}
-```
-
 ### YAML Example
 
-scan.yml
+scan.yml:
 
 ```yaml
 application:
@@ -60,4 +42,24 @@ autoScanAfterPrescan: true
 uploads:
     - ${artifact_app.war}
     - ${artifact_front_end.js}
+```
+
+### JSON Example
+
+scan.json:
+
+```json
+{
+    "application": {
+        "name": "Lunar Lander",
+        "policy": "STRICT"
+    },
+    "sandbox": "Release Candidate",
+    "name": "2020-06-16-1",
+    "autoScanAfterPrescan": true,
+    "uploads": [
+        "${artifact_app.war}",
+        "${artifact_front_end.js}"
+    ]
+}
 ```
