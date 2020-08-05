@@ -1,0 +1,13 @@
+{
+    "application": {
+        "name": "Lunar Lander",
+        "policy": "STRICT"
+    },
+    "sandbox": "Release Candidate",
+    "name": "2020-06-16-1",
+    "autoScanAfterPrescan": true,
+    "uploads": [
+        "${artifact_app.war}",
+        "${artifact_front_end.js}"
+    ]
+}

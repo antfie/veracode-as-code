@@ -1,0 +1,6 @@
+github.com/antfie/veracode-go-api v0.0.0-20200625212828-d9130769edea h1:veSXpmC/mgxvbFkVbBpOymB0t+9uB74KBcZB/JQcDGE=
+github.com/antfie/veracode-go-api v0.0.0-20200625212828-d9130769edea/go.mod h1:tKBTerCsfTAN6MR1Xzw9QGo20dYtNW3UWVIteVUGvdU=
+github.com/antfie/veracode-go-hmac-authentication v1.0.0 h1:PxdLKpQknjFYRBB737zsq1K7ODLcWhiGxrtxiWcb5XY=
+github.com/antfie/veracode-go-hmac-authentication v1.0.0/go.mod h1:eEWNRlbkOj3CNtDauUeOYHISJ8mn52PONuhxRtB9NcE=
+github.com/go-yaml/yaml v2.1.0+incompatible h1:RYi2hDdss1u4YE7GwixGzWwVo47T8UQwnTLB6vQiq+o=
+github.com/go-yaml/yaml v2.1.0+incompatible/go.mod h1:w2MrLa16VYP0jy6N7M5kHaCkaLENm+P+Tv+MfurjSw0=
