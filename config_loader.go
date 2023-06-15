@@ -13,17 +13,7 @@ func loadConfig() Config {
 	}
 
 	for _, f := range files {
-		if strings.ToLower(f) == "scan.json" {
-			configFile, err := readFile(f)
-
-			if err != nil {
-				panic(err)
-			}
-
-			return parseYamlConfig(configFile)
-		}
-
-		if strings.ToLower(f) == "scan.yml" || strings.ToLower(f) == "scan.yaml" {
+		if strings.ToLower(f) == "veracode.yaml" {
 			configFile, err := readFile(f)
 
 			if err != nil {
