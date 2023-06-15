@@ -1,6 +1,6 @@
 package main
 
-import "github.com/go-yaml/yaml"
+import "gopkg.in/yaml.v3"
 
 func parseYamlConfig(data []byte) Config {
 	var c Config

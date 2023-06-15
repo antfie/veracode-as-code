@@ -9,7 +9,9 @@ import (
 func main() {
 	accessKeyID, secretAccessKey := getCredentials()
 	config := loadConfig()
-	
+
+	log.Printf("Application: %s", config.Application.Name)
+
 	applications, err := api.GetApplicationList(accessKeyID, secretAccessKey)
 
 	if err != nil {
